@@ -6,10 +6,6 @@ func generateMatrix(n int) [][]int {
 		arr[i] = make([]int, n)
 	}
 	c := n / 2
-	// 奇数
-	if n%2 == 1 {
-		c++
-	}
 	right := n
 	end := n
 	cnt := 1
